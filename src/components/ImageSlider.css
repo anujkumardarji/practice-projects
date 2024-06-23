@@ -1,0 +1,45 @@
+.images{
+    height: 400px;
+    width: 400px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.button {
+    height: 40px;
+    background: pink;
+    width: 80px;
+}
+
+.indicator-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+
+}
+
+.indicator{
+    background: white;
+    height: 12px;
+    width: 12px;
+    border-radius: 18px;
+    margin-left: 7px;
+}
+
+
+.selected-indicator{
+    background: pink    ;
+    height: 12px;
+    width: 12px;
+    border-radius: 18px;
+    margin-left: 7px;
+}

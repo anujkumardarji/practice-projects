@@ -1,0 +1,21 @@
+.accordian{
+    display: flex;
+    flex-direction: column;
+}
+
+.button{
+    background: pink;
+    width: fit-content;
+    border-width: 0;
+    border-radius: 3%;
+    height: 33px;
+}
+
+.question{
+    margin: 15px;
+    text-align: start;
+    cursor: pointer;
+    background: pink;
+    color: black;
+    padding: 20px;
+}
