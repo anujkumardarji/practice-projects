@@ -1,0 +1,22 @@
+.number-div{
+    height: 113px;
+    width: 123px;
+    border: solid;
+    border-color: pink;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.numbers-container{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.button {
+    background-color: pink;
+    height : 40px;
+}

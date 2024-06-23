@@ -5,6 +5,7 @@ import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import RandomColor from './components/RandomColor.jsx'
 import ImageSlider from './components/ImageSlider.jsx'
+import LoadMoreButton from './components/LoadMoreButton/LoadMoreButton.jsx'
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
   {
     path : "/image-slider",
     element : <ImageSlider/>
+  },
+  {
+    path : "/load-more",
+    element : <LoadMoreButton/>
   }
 ])
 
